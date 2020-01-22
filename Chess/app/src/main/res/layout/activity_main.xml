@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffefcc"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/welcomeMessage"
+        android:layout_width="411dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="88dp"
+        android:gravity="center"
+        android:text="@string/letsPlayChess"
+        android:textSize="30sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.105" />
+
+    <Button
+        android:id="@+id/quit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="306dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="664dp"
+        android:text="@string/quit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="251dp"
+        android:layout_height="108dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="340dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcomeMessage">
+
+        <Button
+            android:id="@+id/startNewGame"
+            android:layout_width="258dp"
+            android:layout_height="wrap_content"
+            android:text="@string/startANewGame" />
+
+        <Button
+            android:id="@+id/watchRecordedGame"
+            android:layout_width="258dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="30sp"
+            android:text="@string/watchRecordedGame" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

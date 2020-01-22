@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Application</string>
+    <string name="letsPlayChess">Let\'s Play Chess</string>
+    <string name="startANewGame">Start a New Game!</string>
+    <string name="watchRecordedGame">Watch a Recorded Game</string>
+    <string name="quit">Quit</string>
+    <string name="button">Button</string>
+    <string name="resign">Resign</string>
+    <string name="recordGameQuestion">Would you like to record the game?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="back">Back</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="ai">AI</string>
+    <string name="undo">Undo</string>
+    <string name="draw">Draw</string>
+    <string name="next">Next</string>
+</resources>
